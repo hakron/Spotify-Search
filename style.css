@@ -1,0 +1,147 @@
+body {
+    background: rgb(26, 198, 42);
+}
+
+* {
+    font-family: 'Ranga', cursive;
+    font-size: 30px;
+}
+
+
+/*search bar and title*/
+
+.main-content {
+    width: 365px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.icon {
+    position: absolute;
+    top: 2%;
+    right: 16%;
+}
+
+.title {
+    margin: 0px;
+}
+
+.btn {
+    width: 80px;
+    height: 50px;
+    border: 1px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(32, 30, 32);
+    color: white;
+}
+
+input[type="text"] {
+    height: 20px;
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="text"]:focus, input[type="text"].focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+select {
+    height: 46px;
+}
+
+.search {
+    width: 455px;
+}
+
+
+/*end searchbar and title*/
+
+
+/*results and content results*/
+
+.result {
+    /*display: none;*/
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#results-area {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.results-cnt {
+    width: 100%;
+    font-size: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: black;
+    /*clear: both;*/
+    margin-top: 175px;
+    /*position: absolute;
+    top: 28%;*/
+}
+
+.btn-results {
+    color: white;
+    bottom: 3%;
+    display: none;
+    margin: 40px 0px 40px 0px;
+    position: relative;
+    left: 50%;
+    padding: 10px 60px;
+    background: black;
+    transform: translate(-50%, 0%);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.spotify-cnt {
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    height: 200px;
+    width: auto;
+    margin-top: auto;
+    margin-top: auto;
+    padding: 20px;
+}
+
+.name {
+    color: white;
+    vertical-align: middle;
+    height: 200px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.imgs {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
